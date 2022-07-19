@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/api/add', methods=['POST'])
 def add():
-    return operation('add', 2)
+    return operation('add', 3)
 
 @app.route('/api/subtract', methods=['POST'])
 def subtract():
